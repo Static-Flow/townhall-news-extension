@@ -1,10 +1,5 @@
-// Copyright 2018 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
 'use strict';
 function modifyDOM() {
-  //You can play with your DOM here or check URL against your regex
   let officeLevels = [].slice.call(document.getElementsByClassName("_2pio"));
   console.log(officeLevels);
   for(let officeLevel in officeLevels){
