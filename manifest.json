@@ -1,7 +1,7 @@
 {
   "name": "Facebook Town Hall News Aggregator",
-  "version": "1.0",
-  "description": "This extension pulls the first 5 news stories about each politician and government body that represents you in the Town Hall directory.",
+  "version": "2.0",
+  "description": "This extension pulls the top 5 news stories for each politician and government body that represents you in the Town Hall directory.",
   "permissions": ["tabs","webNavigation","activeTab", "https://www.facebook.com/townhall/?tab=directory","https://news-collector-agent.herokuapp.com/"],
   "background": {
     "scripts": ["background.js"],
